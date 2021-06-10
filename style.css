@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+background-color: #FFFFFF;
+margin: 0;
+font-size: 1.2rem;
+line-height: 1.6em;
+}
+h1 a{
+   text-decoration: none;
+   color: #1560E1;
+   text-align: center;
+}
+h1{
+   color: #FFFFFF;
+   text-align: center;
+   text-decoration: none;
+   line-height: 1.3em;
+   font-size: 2rem;
+}
+h1 a t1{
+   text-decoration: none;
+   color: #970CE6;
+   text-align: center;
+}
+h1 a t2{
+   text-decoration: none;
+   color: #134712;
+   text-align: center;
+}
+h1 a t3{
+   text-decoration: none;
+   color: #e82213;
+   text-align: center;
+}
+h2{
+   color:#6A0888;
+   text-align: justify;text-align: center;
+   font-family: lobster;
+}
+   p{
+       font-family: yatra;
+       font-size: 22px;
+       text-align: justify;
+       margin-bottom: 1.6em;
+   }
+h3{
+   color: firebrick; text-align: justify; text-align: center;
+   font-family: yatra;
+}
+ul{
+   font-family: yatra;
+   font-size: 20px;
+   text-align: justify;
+}
+li{
+   font-family: yatra;
+   text-align: justify;
+}
+p1{
+   font-family: yatra;
+   font-size: 20px;
+   text-align:justify;
+}
+p2{
+   font-family: two;
+   color: #8904B1;
+   font-size: 22px;
+   text-align: justify;
+   text-align: center;
+}
+li p1{
+   font-family: lobster;
+   color:#0B4C5F;
+   text-align: justify;
+}
+@font-face{
+font-family: lobster;
+src:url(fuentes/Lobster-Regular.ttf);
+}
+@font-face{
+   font-family: yatra;
+src:url(fuentes/YatraOne-Regular.ttf);
+}
+@font-face{
+font-family: two;
+src:url(fuentes/LobsterTwo-BoldItalic.ttf);
+}
+@font-face{
+font-family: averia;
+src:url(fuentes/AveriaLibre-Bold.ttf);
+}
+@font-face{
+font-family: dan;
+src:url(fuentes/DancingScript-VariableFont_wght.ttf);
+}
+/*textos de centrado*/
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+/*Terminan los estilos del texto*/
+
+/*Contenido de centrado de imágenes*/
+.con img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*Termina el códgo de centrado de imágenes*/
+h1{
+    line-height: 1.3em;
+}
+.header{
+    background-color: #FF7C2A;
+    padding: 2rem 0;
+position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 20px;
+    font-size: 1.5em
+    margin-top: 10px;
+}
+.menu-icon{
+    display: none;
+}
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegation ul li{
+    display: inline-block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5 rem 1 rem;
+    transition: all 0.45s linear;
+    border-radius: 5px;
+    font-family: dancing;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.navegation ul li a:hover{
+    background: #ccc
+}
+/*Contenido de relleno para simular espacio de cabecera*/
+.main{
+    padding-top: 14rem;
+}
+/*Terminam contenido de relleno*/
+.footer{
+    background-color: black;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+@media only screen and ( max-width: 768px ){
+    .con img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+        }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem, 1rem;
+    }
+/*Contenido de relleno para simular espacio de cabecera en dispositivosa moviles*/
+.main{
+    padding-top: 16rem;
+}
+/*Terminam contenido de relleno*/
+    .navegation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegation ul{
+        display: none;
+    }
+    .navegation ul.show {
+        display: block;
+    }
+.navegation ul li{
+    display: block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5 rem 0;
+    transition: all 0.45s linear;
+    border-radius: 5px;
+}
+.navegation ul li a:hover{
+    background: #ccc
+}
+    img{
+        width: 190px;
+        height: 190px;
+    }
+}
+@font-face{
+    font-family: dancing;
+    src:url(fuentes/DancingScript-VariableFont_wght.ttf);
+}

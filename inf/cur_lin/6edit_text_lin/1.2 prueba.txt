@@ -1,0 +1,12 @@
+vi es un poderoso editor que tiene muchos comandos, muchisimos como para explicarlos en pocas clases.
+Este curso esta diseñado para descibir suficiente 
+sobre los comandos para que te sea mas facil utilizar este editor de texto.
+
+Esxxxxx imprtnte menconar que esta clse esta dseñdo para ser totalmentecdfvg práctico, lo que indica 
+que debes tenerghjj abierto tu editorjnghj de texto vi todo el tiempo
+y el tiempo que te tomes en cada clase depende de la ejecución de cada comando apropiadamente.
+
+Ahora debes tener cuidado de NO tener la tecla de Caps-Lock presionada ya que la misma depecia las 
+funciones del editor de texto por completo.
+
+ 
